@@ -1,4 +1,4 @@
-// var connection = new WebSocket('ws://html5rocks.websocket.org/echo', ['soap', 'xmpp']);
+// https://www.websocket.org/echo.html
 var connection = new WebSocket("wss://echo.websocket.org");
 
 connection.onopen = () => {
